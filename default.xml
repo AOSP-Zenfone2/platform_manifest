@@ -31,7 +31,7 @@
 		   
 <!-- BEGIN AOSP-CAF -->
   <project name="platform_manifest" path="manifest" remote="zf2" />
-  <project name="platform_build" path="build" remote="zf2" >
+  <project name="platform_build" path="build" remote="github" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="device_qcom_common" path="device/qcom/common" remote="github" />
